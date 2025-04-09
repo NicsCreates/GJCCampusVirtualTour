@@ -316,8 +316,20 @@
                 font-size: 2.5rem;
             }
 
-            footer {
-                padding: 15px 0;
+              footer {
+                padding: 15px 5px;
+            }
+
+            footer p {
+                font-size: .8rem;
+            }
+
+            .video-wrapper{
+            max-width: 90%;
+            }
+
+              .logo-text {
+            display: none;
             }
         }
     </style>
@@ -332,7 +344,7 @@
                 <img src="./assets/GJC LOGO.png" alt="GJC Logo" style="height: 50px; margin-right: 10px;">
                 <div>
                     <div class="text-white fw-bold">General De Jesus College</div>
-                    <div class="text-white">Vallarta St., Poblacion, San Isidro, Nueva Ecija</div>
+                    <div class="text-white logo-text">Vallarta St., Poblacion, San Isidro, Nueva Ecija</div>
                 </div>
             </div>
 
@@ -370,14 +382,14 @@
             </div>
 
             <!-- Navbar Toggler (Hamburger Menu for Small Screens) -->
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="border: 0px;" >
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
     </nav>
 
     <!-- Offcanvas Sidebar Menu (Only Visible on Small Screens) -->
-    <div class="offcanvas offcanvas-end custom-offcanvas d-lg-none" id="offcanvasNavbar" tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas offcanvas-end custom-offcanvas d-lg-none" id="offcanvasNavbar" tabindex="-1" aria-labelledby="offcanvasNavbarLabel" >
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
             <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -404,7 +416,8 @@
         </div>
     </div>
 
-    <h1>GJC Hymn</h1>
+  <main>
+      <h1 style="margin-bottom: .5em;">GJC Hymn</h1>
         <!-- Video Section -->
     </iframe>
     <div class="video-wrapper" style="text-align: center;">
@@ -414,6 +427,7 @@
             allowfullscreen>
         </iframe>
     </div>
+  </main>
 
     <footer>
         <img src="./assets/GJC LOGO.png" alt="General de Jesus College Logo"> <!-- Replace with actual logo path -->

@@ -255,9 +255,9 @@
             box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
             padding: 20px;
             background-color: #294E28;
-            max-width: 70%;
             margin: 0 auto;
             border-radius: 10px;  
+            max-width: 70%;
         }
 
         h1, p {
@@ -316,8 +316,20 @@
             margin-top: 50px;
             }
 
-            footer {
-                padding: 15px 0;
+             footer {
+                padding: 15px 5px;
+            }
+
+            footer p {
+                font-size: .8rem;
+            }
+
+               .logo-text {
+            display: none;
+            }
+
+            .video-wrapper{
+            max-width: 90%;
             }
         }
     </style>
@@ -332,7 +344,7 @@
                 <img src="./assets/GJC LOGO.png" alt="GJC Logo" style="height: 50px; margin-right: 10px;">
                 <div>
                     <div class="text-white fw-bold">General De Jesus College</div>
-                    <div class="text-white">Vallarta St., Poblacion, San Isidro, Nueva Ecija</div>
+                    <div class="text-white logo-text">Vallarta St., Poblacion, San Isidro, Nueva Ecija</div>
                 </div>
             </div>
 
@@ -369,7 +381,7 @@
             </div>
 
             <!-- Navbar Toggler (Hamburger Menu for Small Screens) -->
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="border: 0px;" >
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
@@ -401,7 +413,8 @@
         </div>
     </div>
 
-    <h1>GJC March</h1>
+   <main >
+     <h1 style="margin-bottom: .5em;">GJC March</h1>
         <!-- Video Section -->
     </iframe>
     <div class="video-wrapper" style="text-align: center;">
@@ -411,6 +424,7 @@
             allowfullscreen>
         </iframe>
     </div>
+   </main>
 
     <footer>
         <img src="./assets/GJC LOGO.png" alt="General de Jesus College Logo"> <!-- Replace with actual logo path -->

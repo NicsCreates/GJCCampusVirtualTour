@@ -6,6 +6,8 @@
     <title>Philosophy, Vision, Mission, & Values</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
+ 
+
         body {
             background: #dbfdda;
         }
@@ -16,6 +18,9 @@
             font-size: 3rem;
             font-weight: bold;
             margin-top: 50px;
+            margin-left: 0 !important;
+            margin-bottom: .7em;
+            
         }
 
         h2 {
@@ -28,6 +33,7 @@
         div p {
             color: #000000;
             font-size: 1.3rem;
+            margin: 0 ;
         }
 
         .section {
@@ -333,7 +339,15 @@
             }
 
             footer {
-                padding: 15px 0;
+                padding: 15px 5px;
+            }
+
+            footer p {
+                font-size: .8rem;
+            }
+
+                .logo-text {
+            display: none;
             }
         }
     </style>
@@ -348,7 +362,7 @@
                 <img src="./assets/GJC LOGO.png" alt="GJC Logo" style="height: 50px; margin-right: 10px;">
                 <div>
                     <div class="text-white fw-bold">General De Jesus College</div>
-                    <div class="text-white">Vallarta St., Poblacion, San Isidro, Nueva Ecija</div>
+                    <div class="text-white logo-text">Vallarta St., Poblacion, San Isidro, Nueva Ecija</div>
                 </div>
             </div>
 
@@ -383,7 +397,7 @@
             </div>
 
             <!-- Navbar Toggler (Hamburger Menu for Small Screens) -->
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="border: 0px;">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
@@ -415,12 +429,17 @@
         </div>
     </div>
 
+    <main style="padding: 0 2em;">
+
     <h1>Philosophy, Vision, Mission, & Values</h1>
 
+   <div class="container">
     <!-- Philosophy Section -->
-    <div class="section">
-        <img src="./assets/philosophy.jpeg" alt="Philosophy Image">
-        <div class="text-content">
+    <div class="row align-items-center mb-4">
+        <div class="col-12 col-md-6">
+            <img src="./assets/philosophy.jpeg" alt="Philosophy Image" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-6">
             <h2>Philosophy</h2>
             <p>The development of a morally upright, civic-minded, and useful citizenry is the 
                 responsibility of any educational institution.</p>
@@ -428,9 +447,11 @@
     </div>
 
     <!-- Vision Section -->
-    <div class="section reverse">
-        <img src="./assets/vision.jpeg" alt="Vision Image">
-        <div class="text-content">
+    <div class="row align-items-center mb-4 flex-md-row-reverse">
+        <div class="col-12 col-md-6">
+            <img src="./assets/vision.jpeg" alt="Vision Image" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-6">
             <h2>Vision</h2>
             <p>General de Jesus College as a leading quality educational institution in Central Luzon 
                 producing graduates imbued with discipline, integrity, and excellence that may contribute 
@@ -439,9 +460,11 @@
     </div>
 
     <!-- Mission Section -->
-    <div class="section">
-        <img src="./assets/mission.jpeg" alt="Mission Image">
-        <div class="text-content">
+    <div class="row align-items-center mb-5">
+        <div class="col-12 col-md-6">
+            <img src="./assets/mission.jpeg" alt="Mission Image" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-6">
             <h2>Mission</h2>
             <p>General De Jesus College is committed to producing graduates who are instilled with life and 
                 career competencies and essential values that they may become useful and productive citizens.</p>
@@ -449,14 +472,19 @@
     </div>
 
     <!-- Values Section -->
-    <div class="section reverse">
-        <img src="./assets/values.jpeg" alt="Values Image">
-        <div class="text-content">
+    <div class="row align-items-center mb-4 flex-md-row-reverse">
+        <div class="col-12 col-md-6">
+            <img src="./assets/values.jpeg" alt="Values Image" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-6">
             <h2>Values</h2>
-            <p>Discipline - Integrity - Excellence <br>
-               For God and Country</p>
+            <p>Discipline - Integrity - Excellence <br> For God and Country</p>
         </div>
     </div>
+</div>
+
+</main>
+
 
     <!-- Footer -->
 <footer>

@@ -67,6 +67,10 @@
   .logo-text {
     display: none;
   }
+
+  .hero-title {
+    margin-bottom: 1rem !important;
+  }
 }
 
 /**********************************BAGO NAVBAR STYLES****************************************************************************/
@@ -454,6 +458,7 @@ body {
   margin: 0 auto;
   width: 85vw;
   z-index: 2;
+  align-items: center;
 }
 
 .hero-text {
@@ -475,7 +480,7 @@ body {
   font-size: 5.5rem;
   font-weight: bold;
   margin-top: 0.5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem !important;
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
 }
 
